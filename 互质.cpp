@@ -4,7 +4,7 @@ int main()
 {
 	
 int a, b, c, m, n, x=10;
-	printf("输入m和n:  ");
+	printf("input m,n:  ");
 	scanf("%d %d", &m,&n);
 	a = m;
 	b = n;
@@ -15,9 +15,9 @@ else b=b-a;
 }
 
 if(a==1)
-printf("互质");
+printf("YES");
 else {
-printf("这两个数不互质");
+printf("NO");
 }
 return 0;
 }
