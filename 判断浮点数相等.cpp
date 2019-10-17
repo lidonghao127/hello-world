@@ -4,14 +4,14 @@ int main()
 {
 	
 float m,x,y,a,b;
- scanf("%f %f %f",&m,&x,&y);//对应题中的1.78 1.779999 2 
+ scanf("%f %f %f",&m,&x,&y);//for example 1.78 1.779999 2 
  a=m/y,b=x/y;
  a=(int)(a*100000+0.5)/100000;
  b=(int)(b*100000)/100000;
  if(a==b){
-   printf("相等");
+   printf("equal");
 }
-  else printf("不相等");
+  else printf("not equal");
 return 0;
 }
 
